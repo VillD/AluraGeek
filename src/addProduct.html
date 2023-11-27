@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Agregar producto</title>
+		<link rel="stylesheet" href="/dist/output.css" />
+		<link rel="stylesheet" href="/src/custom.css" />
+	</head>
+	<body>
+		<header class="flex py-3 px-4 items-center gap-6 max-w-7xl m-auto">
+			<a href="./index.html" class="">
+				<img src="/images/svg/Logo.svg" alt="logo" />
+			</a>
+			<div
+				class="order-3 lg:order-2 lg:flex lg:flex-auto lg:justify-center lg:items-center lg:rounded-full lg:relative"
+			>
+				<input
+					type="text"
+					class="hidden lg:block lg:w-full lg:p-2 lg:bg-slate-100 lg:rounded-full"
+					placeholder="¿Qué deseas buscar?"
+				/>
+				<span class="flex items-center lg:absolute lg:right-2">
+					<img src="/images/svg/search.svg" alt="icono de busqueda" />
+				</span>
+			</div>
+			<div class="order-1 flex-1 text-center lg:order-3 lg:flex-none">
+				<a class="p-2 border-2 border-blue-600 text-blue-500 w-32 font-bold">
+					Menu Administrador
+				</a>
+			</div>
+		</header>
+
+		<section class="min-h-[40rem] flex items-center bg-slate-100">
+			<form
+				action=""
+				class="max-w-7xl mx-auto flex justify-center items-center py-8 flex-col w-full gap-4"
+			>
+				<h1 class="font-semibold text-2xl">Agregar nuevo producto</h1>
+				<div class="flex gap-4 flex-col w-full items-center">
+					<label for="" class="w-2/3 md:w-1/2 lg:w-1/3">
+						<input type="text" class="w-full p-4" placeholder="URL de imagen" />
+					</label>
+
+					<label for="" class="w-2/3 md:w-1/2 lg:w-1/3">
+						<input type="text" class="w-full p-4" placeholder="Categoria" />
+					</label>
+
+					<label for="" class="w-2/3 md:w-1/2 lg:w-1/3">
+						<input
+							type="text"
+							class="w-full p-4"
+							placeholder="Nombre del producto"
+						/>
+					</label>
+
+					<label for="" class="w-2/3 md:w-1/2 lg:w-1/3">
+						<input
+							type="text"
+							class="w-full p-4"
+							placeholder="Precio del producto"
+						/>
+					</label>
+
+					<div class="w-2/3 md:w-1/2 lg:w-1/3">
+						<textarea
+							name=""
+							placeholder="Descripción del producto"
+							id=""
+							class="w-full p-4"
+						></textarea>
+					</div>
+
+					<button
+						type="submit"
+						class="bg-blue-500 w-1/3 p-3 text-gray-50 text-lg font-semibold"
+					>
+						Agregar producto
+					</button>
+				</div>
+			</form>
+		</section>
+
+		<footer class="bg-blue-100">
+			<div class="max-w-7xl mx-auto footer py-12">
+				<a href="" class="px-4 xl:px-0">
+					<img src="/images/svg/Logo.svg" alt="" />
+				</a>
+				<ul class="flex gap-2 flex-col items-center md:items-stretch">
+					<li>Quienes somos</li>
+					<li>Política de privacidad</li>
+					<li>Programa de fidelidad</li>
+					<li>Nuestras tiendas</li>
+					<li>Quiero ser franquiciado</li>
+					<li>Anúncie aqui</li>
+				</ul>
+				<form action="" class="flex flex-col gap-4 px-4 xl:px-0">
+					<h1>Hable con nosotros</h1>
+					<label for="" class="w-full">
+						<input type="text" placeholder="Nombre" class="w-full p-2" />
+					</label>
+					<textarea
+						name=""
+						id=""
+						placeholder="Escribe tu mensaje"
+						class="p-2"
+					></textarea>
+					<button
+						type="submit"
+						class="bg-blue-500 py-2 px-3 text-gray-100 self-start"
+					>
+						Enviar mensaje
+					</button>
+				</form>
+			</div>
+		</footer>
+	</body>
+</html>

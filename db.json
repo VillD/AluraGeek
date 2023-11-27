@@ -1,0 +1,53 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"nombre": "producto 01",
+			"url": "./images/product-01.png",
+			"precio": "60,00",
+			"descripcion": "Una descripcion breve del producto01"
+		},
+		{
+			"id": 2,
+			"nombre": "producto 02",
+			"url": "./images/product-02.png",
+			"precio": "60,00",
+			"descripcion": "Una descripcion breve del producto01"
+		},
+		{
+			"id": 3,
+			"nombre": "producto 03",
+			"url": "./images/product-03.png",
+			"precio": "60,00",
+			"descripcion": "Una descripcion breve del producto01"
+		},
+		{
+			"id": 4,
+			"nombre": "producto 04",
+			"url": "./images/product-04.png",
+			"precio": "60,00",
+			"descripcion": "Una descripcion breve del producto01"
+		},
+		{
+			"id": 5,
+			"nombre": "producto 05",
+			"url": "./images/product-04.png",
+			"precio": "60,00",
+			"descripcion": "Una descripcion breve del producto01"
+		}
+	],
+	"category": [
+		{
+			"id": 1,
+			"nombreCategoria": "Start Wars"
+		},
+		{
+			"id": 2,
+			"nombreCategoria": "Consolas"
+		},
+		{
+			"id": 3,
+			"nombreCategoria": "Diversos"
+		}
+	]
+}
